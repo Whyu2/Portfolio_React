@@ -1,0 +1,54 @@
+
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('http://fonts.cdnfonts.com/css/valorant');
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+body {
+    font-family: 'Quicksand', sans-serif !important;
+ 
+  }
+
+.background{
+    height: 100vh;
+    background: rgb(22, 28, 45);
+}
+
+
+.navbar{
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.bio{
+    height: 100%;
+
+    margin-top: 5%;
+}
+.tittle{
+    font-size: 3rem;
+    margin-top: -1%;
+    font-weight: 800;
+    line-height: 1;
+}
+.deskripsi{
+    font-size: 14px;
+
+}
+.icon{
+    font-size: 2rem;
+}
+.text-greenl{
+    font-weight: 800;
+    color: rgb(32, 201, 151);
+}
+
+.project{
+    height: 100vh;
+    background: rgb(22, 28, 45);
+}
+
+.bio-foto{
+    filter: drop-shadow(0 0 0.180rem rgb(32, 201, 151));
+}
