@@ -11,8 +11,7 @@ body {
  
   }
 
-.background{
-    height: 100vh;
+.Intro{
     background: rgb(22, 28, 45);
 }
 
@@ -22,8 +21,7 @@ body {
 }
 
 .bio{
-    height: 100%;
-
+    min-height: 100vh;
     margin-top: 5%;
 }
 .tittle{
@@ -43,12 +41,46 @@ body {
     font-weight: 800;
     color: rgb(32, 201, 151);
 }
+.text-green2{
+    font-weight: 100;
+    color: rgb(32, 201, 151);
+    font-size: 13px;
+}
+
 
 .project{
-    height: 100vh;
+    height: auto;
     background: rgb(22, 28, 45);
+    padding: 20px;
+
 }
 
 .bio-foto{
-    filter: drop-shadow(0 0 0.180rem rgb(32, 201, 151));
+    filter: drop-shadow(0 0 0.20rem rgb(32, 201, 151));
+   
+}
+
+.project-cardfoto{
+    filter: drop-shadow(0 0 0.20rem rgb(0, 0, 0));
+    padding-bottom: 10px;
+}
+
+
+.project-cardbody{
+    background: rgb(22, 28, 45);
+
+}
+
+
+.cont{
+    height: auto;
+    background: rgb(22, 28, 45);
+    padding: 10px;
+
+}
+
+.fot{
+    background: rgb(22, 28, 45);
+    padding-top: 40px;
+
 }
