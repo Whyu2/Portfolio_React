@@ -1,6 +1,7 @@
 {
   "name": "my-portfolio",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "homepage": "http://whyu2.github.io/myportfolio/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",

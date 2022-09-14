@@ -17,17 +17,16 @@ const  Bio = ()=>{
          
                 <div className='mt-3 deskripsi'>Fresh graduate majoring in computer science (Information Systems). Experienced in web application development using PHP with Laravel framework with database side using MySQL. I'm also experienced in Bootstrap CSS. My focus is currently exploring the back end side by learning Laravel and NodeJS </div>
 
-                <Button className='mt-3 btn-success bg-transparent btn-outline-white'>Resume</Button>
+                <Button href='https://drive.google.com/file/d/1Whut6Wem6NiGPIr4O0Q07RnCAMkBwHtA/view?usp=sharing' className='mt-3 btn-success bg-transparent btn-outline-white'>Resume / CV</Button>
                 <Row>
                 <Col className='icon p-4'><FontAwesomeIcon icon={faHtml5} /></Col>
                 <Col className='icon p-4'><FontAwesomeIcon icon={faCss3} /></Col>
                 <Col  className='icon p-4'><FontAwesomeIcon icon={faPhp} /></Col>
                 <Col  className='icon p-4'><FontAwesomeIcon icon={faLaravel} /></Col>
                 <Col  className='icon p-4'><FontAwesomeIcon icon={faBootstrap} /></Col>
-                <Col  className='icon p-4'><FontAwesomeIcon icon={faReact} /></Col>
                 <Col  className='icon p-4'><FontAwesomeIcon icon={faNodeJs} /></Col>
+                <Col  className='icon p-4'><FontAwesomeIcon icon={faReact} /></Col>
                 <Col  className='icon p-4'><FontAwesomeIcon icon={faGit} /></Col>
-                
                 </Row>
             </Col>
           </Row>
