@@ -66,13 +66,18 @@ body {
 .project-cardfoto{
     filter: drop-shadow(0 0 0.20rem rgb(0, 0, 0));
     padding-bottom: 10px;
+    transition: all 0.1s;
+
 }
 
 
 .project-cardbody{
     background: rgb(22, 28, 45);
     height: auto;
+}
 
+.project-cardfoto:hover{
+    transform: scale(1.03);
 }
 
 
